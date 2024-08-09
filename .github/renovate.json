@@ -1,18 +1,24 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
-  "assignees": ["@Ilshidur"],
+  "assignees": [
+    "@Ilshidur"
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },
   "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "assignees": ["@Ilshidur"]
+    "labels": [
+      "security"
+    ],
+    "assignees": [
+      "@Ilshidur"
+    ]
   },
   "packageRules": [
     {
-      "depTypeList": [
+      "matchDepTypes": [
         "engines"
       ],
       "rangeStrategy": "auto"
