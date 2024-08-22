@@ -37,6 +37,6 @@
     "@vercel/ncc": "0.28.2",
     "dotenv": "8.2.0",
     "eslint": "7.24.0",
-    "eslint-plugin-node": "11.1.0"
+    "eslint-plugin-n": "14.0.0"
   }
 }
