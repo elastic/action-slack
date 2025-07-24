@@ -12,8 +12,6 @@ updates:
       day: "sunday"
     assignees:
       - "Ilshidur"
-    reviewers:
-      - "Ilshidur"
     labels:
       - "dependencies"
       - "npm"
